@@ -1,13 +1,51 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: antiquewhite;
+  
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.name {
+  font-size:  xx-large;
+  font-style: oblique;
+}
+
+.info {
+  color:darkgreen;
+}
+
+.title {
+  text-align: center;
+  border: 2px;
+  border-style: solid;
+}
+
+.column-name {
+  text-decoration: underline;
+}
+
+.centered {
+  padding-right: 5%;
+  columns:125px;
+}
+
+.education {
+  margin-left: 2%;
+  display: flex;
+  flex-direction: column;
+}
+
+.cs-skills {
+  margin-left: 2%;
+  display: flex;
+  flex-direction: column;
+}
+
+.work-experience {
+  text-align: right;
+  margin-right: 2%;
+}
+
+.projects-programs {
+  text-align: right;
+  margin-right: 2%;
+  margin-bottom: 1%;
 }
